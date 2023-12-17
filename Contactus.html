@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tea_store</title>
+    <link rel="shortcut icon" href="images/banner.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.2/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Manrope:wght@300;400;500;600&family=Onest:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,700&family=Poppins:wght@300;400;500;600;700&family=Work+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f9cd5c0c10.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <style>
+        .Manrope{
+            font-family: 'Lato', sans-serif;
+            font-family: 'Manrope', sans-serif;
+            font-family: 'Onest', sans-serif;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body class="Manrope">
+  <nav>
+    <div class="shadow-xl">
+      <div class="navbar">
+        <div class="navbar-start list-none">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a href="index.html" class="text-[#3A3A3A] text-lg">Home</a></li>
+              <li>
+                <a href="product.html" class="text-[#3A3A3A] text-lg">Products</a>
+              </li>
+              <li><a href="Contactus.html" class="text-[#3A3A3A] text-lg">Contact Us</a></li>
+              <li><a href="ourevents.html" class="text-[#3A3A3A] text-lg">Our Events</a></li>
+              <div>
+                <input type="text" placeholder="Type here"  class="input  input-success w-44 h-10" />
+              </div>
+            </ul>
+          </div>
+          <img class="w-20 h-15" src="/images/product/logo.jpg" alt="">
+           
+         </div>    
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal ">
+            <li><a href="index.html" class="text-[#3A3A3A] text-lg font-bold">Home</a></li>
+            <li><a href="product.html" class="text-[#3A3A3A] text-lg font-bold">Products</a></li>
+            <li><a href="Contactus.html" class="text-[#3A3A3A] text-lg font-bold">Contact Us</a></li>
+            <li><a href="ourevents.html" class="text-[#3A3A3A] text-lg font-bold">Our Events</a></li>
+            <div >
+              <input type="text" placeholder="Type here"  class="input  input-success lg:w-60 lg:h-10" />
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+    <main class="container mx-auto">
+        <!-- future section -->
+        <div class="hero  h-40" style="background-image: url(/images/product/contact.avif);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-5xl font-bold text-fuchsia-50">#Let's_Talk</h1>
+                <p class="mb-5 text-fuchsia-50">There are many variations of passages of Lorem Ipsum </p>
+                
+              </div>
+            </div>
+        </div>
+        
+    </main>
+    <section>
+        <section class="grid grid-cols-1 lg:grid-cols-2 mt-10 mx-20">
+            <div class="mt-20">
+                <span>GET IN TOUCH</span>
+                <h2 class="text-3xl font-bold mt-2 mb-2">visit one of our agency location or contact us today</h2>
+                <h3 class="text-lg font-semibold mt-5">Head Office</h3>
+                <div class=" my-7 ">
+                    <li class="flex mb-3">
+                        <i class='bx bxs-map'></i>
+                        <p>56 glass ford street GHT New york</p>
+                    </li>
+                    <li class="flex mb-3">
+                        <i class='bx bx-envelope' ></i>
+                        <p>Contact@example.com</p>
+                    </li>
+                    <li class="flex mb-3">
+                        <i class='bx bxs-phone-call' ></i>
+                        <p>Contact@example.com</p>
+                    </li>
+                    <li class="flex mb-3">
+                        <i class='bx bx-time-five' ></i>
+                        <p>Monday to Saturday 9.00am to 16pm</p>
+                    </li>
+                </div>
+            </div>
+            <div class="">
+                <iframe class="w-auto h-52 lg:w-[500px] lg:h-96" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.808802952256!2d-1.2569417244516665!3d51.75481969259986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6a9ef8c485b%3A0xd2ff1883a001afed!2sUniversity%20of%20Oxford!5e0!3m2!1sen!2sbd!4v1702733961937!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </section>
+    <section class="">
+        <div class="hero min-h-screen bg-base-200 ">
+            <div class="hero-content flex-col lg:flex-row-reverse gap-10">
+              <div class="text-center w-56 lg:w-[700px] lg:h-[300px] lg:text-left rounded-xl" style="background-image: url(/images/product/contactus.jpg);">
+                <h1 class="text-5xl font-bold text-zinc-50 text-center p-5">LEAVE A MESSAGE</h1>
+                <p class="py-6 text-zinc-50 text-center -mt-3 font-semibold text-xl">We love to hear From you</p>
+              </div>
+              <div class="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                <form class="card-body">
+                  <div class="form-control gap-5">
+                    
+                    <input type="text" placeholder="Type Name" class="input input-bordered" required />
+                    <input type="email" placeholder=" Type email" class="input input-bordered" required />
+                    <input type="text" placeholder="Type subject" class="input input-bordered" required />
+                    <textarea placeholder="Type Message" class="textarea textarea-bordered textarea-lg w-full max-w-xs" ></textarea>
+
+                  </div>
+                  <div class="form-control mt-6">
+                    <button class="btn text-xl font-bold text-white bg-teal-800">Send</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        
+    </section>
+
+
+    <!-- footer section start -->
+    <footer class="footer p-10 bg-base-200 text-base-content">
+        <nav>
+          <header class="footer-title">Services</header> 
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Company</header> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Legal</header> 
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav> 
+        <form>
+          <header class="footer-title">Newsletter</header> 
+          <fieldset class="form-control w-80">
+            <label class="label">
+              <span class="label-text">Enter your email address</span>
+            </label> 
+            <div class="join">
+              <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
+              <button class="btn btn-primary join-item">Subscribe</button>
+            </div>
+          </fieldset>
+        </form>
+      </footer>
+</body>
+</html>
